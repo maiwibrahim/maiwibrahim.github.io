@@ -355,7 +355,7 @@ article{ padding:0!important;margin:0!important; }
   <div class="av" id="av2" style="top:30%;right:22%;">
     <div class="av-body" style="width:38px;height:44px;background:rgba(52,48,8,.80);border:1px solid rgba(245,226,122,.55);box-shadow:0 0 0 3px rgba(245,226,122,.08),0 8px 32px rgba(0,0,0,.88);">📡</div>
     <div class="av-shadow" style="width:26px;background:rgba(245,226,122,.14);"></div>
-    <div class="av-label" style="color:rgba(249,237,170,.80);">intensity02</div>
+    <div class="av-label" style="color:rgba(249,237,170,.80);">intensity</div>
   </div>
 
   <!-- "digital media" tag -->
