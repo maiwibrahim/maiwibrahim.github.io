@@ -70,7 +70,7 @@ article{ padding:0!important;margin:0!important; }
 
 .hero {
   background:var(--hero-bg);
-  height:100vh;min-height:100vh;width:100vw;
+  min-height:100vh;width:100vw;
   display:flex;align-items:center;
   padding:60px 6vw 80px;
   position:relative;overflow:hidden;
@@ -90,8 +90,8 @@ article{ padding:0!important;margin:0!important; }
   transform:translateY(14px);
   transition:opacity .7s ease, transform .7s ease;
 }
-.av.visible          { opacity:0.16; transform:translateY(0); }
-.av.ghost-av.visible { opacity:0.13; transform:translateY(0); }
+.av.visible          { opacity:0.10; transform:translateY(0); }
+.av.ghost-av.visible { opacity:0.08; transform:translateY(0); }
 
 .av-body {
   border-radius:50% 50% 40% 40%;
@@ -181,8 +181,8 @@ article{ padding:0!important;margin:0!important; }
 .about-section {
   background:#f0f8fa;width:100vw;
   padding:130px max(2.5rem,6vw) 140px;
-  clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
-  margin-top:0;
+  clip-path:polygon(0 60px,100% 0,100% 100%,0 100%);
+  margin-top:-60px;
   min-height:100vh;display:flex;flex-direction:column;
   justify-content:center;align-items:center;position:relative;
 }
@@ -196,12 +196,12 @@ article{ padding:0!important;margin:0!important; }
   display:flex;gap:9rem;align-items:center;
   justify-content:center;flex-wrap:wrap;position:relative;
 }
-.about-img-wrap { flex-shrink:0;transform:rotate(-6deg);position:relative;align-self:center; }
+.about-img-wrap { flex-shrink:0;transform:none;position:relative;align-self:center; }
 .about-img {
   width:230px;height:298px;object-fit:cover;object-position:top;display:block;border-radius:3px;
   box-shadow:0 0 0 3px #fff,6px 10px 36px rgba(255,61,130,.22),-2px -2px 0 1px rgba(13,191,180,.35);
 }
-.text-col { display:flex;flex-direction:column;gap:1.4rem;max-width:520px;transform:rotate(2.5deg);min-width:280px;padding-top:24px; }
+.text-col { display:flex;flex-direction:column;gap:1.4rem;max-width:520px;transform:none;min-width:280px;padding-top:24px; }
 .about-text { font-size:16px;line-height:1.95;color:#1a2e3a;margin:0; }
 
 @keyframes floatA { 0%,100%{transform:translateY(0) rotate(-3deg);}  50%{transform:translateY(-18px) rotate(-3deg);} }
@@ -293,21 +293,18 @@ article{ padding:0!important;margin:0!important; }
 @media (max-width:640px) {
   .site-nav { justify-content:flex-start;padding:0 1.5rem;gap:1.25rem;height:56px; }
   .site-nav a { font-size:10px; }
-  .hero { padding:56px 1.5rem 60px;align-items:center;height:100svh;min-height:100svh; }
+  .hero { padding:56px 1.5rem 60px;align-items:center;min-height:100svh; }
   .hero-name { white-space:normal; }
   .hero-content { max-width:55%; }
-  /* avatars visible on mobile — touch triggers hover effect */
-  /* show 6: VR (gv4), embodiment (gv5), materiality (av3), ambient (av4), affect (gv2), culture (gtag2), media (tag1) */
-  .av, .float-tag { display:none; }
-  #av3, #av4, #gv2, #gv4, #gv5 { display:flex; }
-  #tag1, #gtag2 { display:inline-flex; }
+  .av, .float-tag { display:flex; }
+  .float-tag { display:inline-flex; }
   .av .av-body { font-size:13px; }
   .av .av-label { font-size:7px; }
-  .about-section { clip-path:polygon(0 0,100% 0,100% 100%,0 100%);padding:80px 1.5rem 80px;margin-top:0; }
+  .about-section { clip-path:polygon(0 30px,100% 0,100% 100%,0 100%);padding:80px 1.5rem 80px;margin-top:-30px; }
   .about-inner { flex-direction:column;align-items:center;gap:2.5rem; }
-  .about-img-wrap { transform:rotate(-3deg); }
+  .about-img-wrap { transform:none; }
   .about-img { width:190px;height:246px; }
-  .text-col { transform:rotate(1.5deg);max-width:100%;min-width:unset; }
+  .text-col { transform:none;max-width:100%;min-width:unset; }
   .about-text { font-size:15px; }
   .section-label { font-size:15px; }
   .pubs-section { padding-top:60px; }
@@ -347,51 +344,52 @@ article{ padding:0!important;margin:0!important; }
     <span style="background:var(--yellow);"></span>
   </div>
 
-  <!-- av1: glitch — top-right | ghost-av → opacity 0.08 | emoji: 🔀 (disruption/glitch) -->
+  <!-- av1: glitch | ghost-av → 0.32 | emoji: ⚡ -->
   <div class="av ghost-av" id="av1" style="top:17%;right:8%;">
-    <div class="av-body" style="width:42px;height:48px;background:rgba(8,52,58,.80);border:1px solid rgba(13,191,180,.55);box-shadow:0 0 0 3px rgba(13,191,180,.08),0 8px 32px rgba(0,0,0,.88);">🔀</div>
+    <div class="av-body" style="width:42px;height:48px;background:rgba(8,52,58,.80);border:1px solid rgba(13,191,180,.55);box-shadow:0 0 0 3px rgba(13,191,180,.08),0 8px 32px rgba(0,0,0,.88);">⚡</div>
     <div class="av-shadow" style="width:28px;background:rgba(13,191,180,.16);"></div>
     <div class="av-label" style="color:rgba(128,232,227,.80);">glitch</div>
   </div>
 
-  <!-- av2: intensity02 — mid-right | emoji: 💥 (changed) -->
+  <!-- av2: intensity02 | opacity: 0.58 exception | emoji: 📡 -->
   <div class="av" id="av2" style="top:30%;right:22%;">
-    <div class="av-body" style="width:38px;height:44px;background:rgba(52,48,8,.80);border:1px solid rgba(245,226,122,.55);box-shadow:0 0 0 3px rgba(245,226,122,.08),0 8px 32px rgba(0,0,0,.88);">💥</div>
+    <div class="av-body" style="width:38px;height:44px;background:rgba(52,48,8,.80);border:1px solid rgba(245,226,122,.55);box-shadow:0 0 0 3px rgba(245,226,122,.08),0 8px 32px rgba(0,0,0,.88);">📡</div>
     <div class="av-shadow" style="width:26px;background:rgba(245,226,122,.14);"></div>
-    <div class="av-label" style="color:rgba(249,237,170,.80);">intensity</div>
+    <div class="av-label" style="color:rgba(249,237,170,.80);">intensity02</div>
   </div>
 
-  <!-- "media" tag -->
-  <div class="float-tag" id="tag1" style="top:19%;right:23%;">media</div>
+  <!-- "digital media" tag -->
+  <div class="float-tag" id="tag1" style="top:19%;right:23%;">digital media</div>
 
-  <!-- av3: materiality05 | emoji: 📡 (changed) -->
+  <!-- av3: materiality05 | opacity: 0.58 exception | emoji: 🪨 -->
   <div class="av" id="av3" style="top:22%;right:38%;">
-    <div class="av-body" style="width:36px;height:42px;background:rgba(52,8,24,.80);border:1px solid rgba(255,61,130,.55);box-shadow:0 0 0 3px rgba(255,61,130,.08),0 8px 32px rgba(0,0,0,.88);">📡</div>
+    <div class="av-body" style="width:36px;height:42px;background:rgba(52,8,24,.80);border:1px solid rgba(255,61,130,.55);box-shadow:0 0 0 3px rgba(255,61,130,.08),0 8px 32px rgba(0,0,0,.88);">🪨</div>
     <div class="av-shadow" style="width:24px;background:rgba(255,61,130,.14);"></div>
-    <div class="av-label" style="color:rgba(255,170,201,.80);">materiality</div>
+    <div class="av-label" style="color:rgba(255,170,201,.80);">materiality05</div>
   </div>
 
-  <!-- "politics" tag -->
-  <div class="float-tag" id="tag2" style="top:44%;right:30%;">politics</div>
+  <!-- "researching" tag -->
+  <div class="float-tag with-icon" id="tag2" style="top:44%;right:30%;">
+    <svg width="9" height="9" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+      <circle cx="5" cy="5" r="3.4" stroke="rgba(255,255,255,0.60)" stroke-width="1.3"/>
+      <line x1="7.4" y1="7.4" x2="11" y2="11" stroke="rgba(255,255,255,0.60)" stroke-width="1.4" stroke-linecap="round"/>
+    </svg>
+    researching
+  </div>
 
-  <!-- "liminal" tag — between glitch (top:17% right:8%) and ambient (top:50% right:12%) -->
-  <div class="float-tag" id="tag-liminal" style="top:34%;right:6%;">liminal</div>
-
-  <!-- av4: ambient — lower right | ghost-av | emoji: 🌿 -->
+  <!-- av4: ambient | ghost-av → 0.32 | emoji: 🌿 -->
   <div class="av ghost-av" id="av4" style="top:50%;right:12%;">
     <div class="av-body" style="width:36px;height:42px;background:rgba(6,44,38,.80);border:1px solid rgba(0,210,170,.55);box-shadow:0 0 0 3px rgba(0,210,170,.08),0 8px 32px rgba(0,0,0,.88);">🌿</div>
     <div class="av-shadow" style="width:24px;background:rgba(0,210,170,.14);"></div>
     <div class="av-label" style="color:rgba(128,232,227,.80);">ambient</div>
   </div>
 
-  <!-- av5: extraction05 -->
+  <!-- av5: extraction05 | opacity: 0.08 -->
   <div class="av" id="av5" style="top:62%;right:33%;">
     <div class="av-body" style="width:36px;height:42px;background:rgba(30,8,52,.80);border:1px solid rgba(160,90,230,.55);box-shadow:0 0 0 3px rgba(160,90,230,.08),0 8px 32px rgba(0,0,0,.88);">🤑</div>
     <div class="av-shadow" style="width:24px;background:rgba(160,80,230,.14);"></div>
-    <div class="av-label" style="color:rgba(200,160,240,.80);">extraction</div>
+    <div class="av-label" style="color:rgba(200,160,240,.80);">extraction05</div>
   </div>
-
-  <!-- GHOST AVATARS -->
 
   <!-- gv2: affect | emoji: 🫀 -->
   <div class="av ghost-av" id="gv2" style="top:22%;right:3%;">
@@ -400,23 +398,23 @@ article{ padding:0!important;margin:0!important; }
     <div class="av-label" style="color:rgba(255,170,201,.55);">affect</div>
   </div>
 
-  <!-- gv3: capitalism | emoji: 💰 -->
+  <!-- gv3: platform capitalism | emoji: 💹 -->
   <div class="av ghost-av" id="gv3" style="top:13%;right:48%;">
-    <div class="av-body" style="width:34px;height:40px;background:rgba(8,40,50,.92);border:1px solid rgba(13,191,180,.26);box-shadow:0 6px 24px rgba(0,0,0,.78);">💰</div>
+    <div class="av-body" style="width:34px;height:40px;background:rgba(8,40,50,.92);border:1px solid rgba(13,191,180,.26);box-shadow:0 6px 24px rgba(0,0,0,.78);">💹</div>
     <div class="av-shadow" style="width:22px;background:rgba(13,191,180,.08);"></div>
-    <div class="av-label" style="color:rgba(128,232,227,.52);">capitalism</div>
+    <div class="av-label" style="color:rgba(128,232,227,.52);">platform capitalism</div>
   </div>
 
-  <!-- gv4: VR_24 | 🥽 exception, unchanged -->
+  <!-- gv4: VR_24 | 🥽 exception | opacity: 0.58 -->
   <div class="av" id="gv4" style="top:56%;right:22%;">
     <div class="av-body" style="width:44px;height:50px;background:rgba(10,28,46,.80);border:1px solid rgba(13,191,180,.50);box-shadow:0 0 0 3px rgba(13,191,180,.08),0 8px 32px rgba(0,0,0,.88);">🥽</div>
     <div class="av-shadow" style="width:28px;background:rgba(13,191,180,.14);"></div>
-    <div class="av-label" style="color:rgba(128,232,227,.80);">VR</div>
+    <div class="av-label" style="color:rgba(128,232,227,.80);">VR_24</div>
   </div>
 
-  <!-- gv5: embodiment | emoji: 🧠 (changed) -->
+  <!-- gv5: embodiment | emoji: 🧬 -->
   <div class="av ghost-av" id="gv5" style="top:72%;right:40%;">
-    <div class="av-body" style="width:26px;height:30px;background:rgba(20,8,40,.92);border:1px solid rgba(160,90,230,.26);box-shadow:0 6px 20px rgba(0,0,0,.78);">🧠</div>
+    <div class="av-body" style="width:26px;height:30px;background:rgba(20,8,40,.92);border:1px solid rgba(160,90,230,.26);box-shadow:0 6px 20px rgba(0,0,0,.78);">🧬</div>
     <div class="av-shadow" style="width:16px;background:rgba(160,80,230,.08);"></div>
     <div class="av-label" style="color:rgba(200,160,240,.52);">embodiment</div>
   </div>
@@ -424,11 +422,8 @@ article{ padding:0!important;margin:0!important; }
   <!-- gtag1: infrastructure -->
   <div class="float-tag" id="gtag1" style="top:9%;right:36%;opacity:0;">infrastructure</div>
 
-  <!-- gtag2: culture | emoji: 🎭 — under VR_24 (right:22%), same horizontal as brain -->
-  <div class="float-tag" id="gtag2" style="top:72%;right:18%;opacity:0;">culture 🎭</div>
-
-  <!-- tag-technology: below VR_24 (top:56% right:22%) and ambient (top:50% right:12%), to the right of both -->
-  <div class="float-tag" id="tag-technology" style="top:64%;right:4%;">technology</div>
+  <!-- gtag2: pre-conscious -->
+  <div class="float-tag" id="gtag2" style="top:60%;right:38%;opacity:0;">pre-conscious 🌀</div>
 
   <div class="hero-content">
     <h1 class="hero-name">
@@ -526,33 +521,19 @@ article{ padding:0!important;margin:0!important; }
   window.addEventListener('scroll', onScroll, {passive:true});
   onScroll();
 
-  /*
-   * Opacity tiers:
-   *   0.58  — intensity02 (av2), materiality05 (av3), VR_24 (gv4)
-   *   0.32  — glitch (av1) [ghost-av], ambient (av4) [ghost-av],
-   *            extraction05 (av5), affect (gv2), platform capitalism (gv3),
-   *            embodiment (gv5), tag1, tag2
-   *   0.30  — infrastructure (gtag1), pre-conscious (gtag2)
-   *   0.06  — liminal (tag-liminal)
-   */
   var delays = {
-    av1:100, av2:220, tag1:300, av3:340, tag2:420,
-    'tag-liminal':460,
-    av4:500, av5:600,
+    av1:100, av2:220, tag1:300, av3:340, tag2:420, av4:500, av5:600,
     gv2:280, gv3:380, gv4:540, gv5:660,
-    gtag1:440, gtag2:680,
-    'tag-technology':720
+    gtag1:440, gtag2:680
   };
 
   var opacities = {
-    av1:0.13,
-    av4:0.13,
-    av5:0.13,
-    tag1:0.11, tag2:0.11,
-    'tag-liminal':0.11,
-    'tag-technology':0.11,
-    gv2:0.13, gv3:0.13, gv5:0.13,
-    gtag1:0.11, gtag2:0.11
+    av1:0.08,
+    av4:0.08,
+    av5:0.08,
+    tag1:0.06, tag2:0.06,
+    gv2:0.08, gv3:0.08, gv5:0.08,
+    gtag1:0.06, gtag2:0.06
   };
 
   Object.keys(delays).forEach(function(id){
