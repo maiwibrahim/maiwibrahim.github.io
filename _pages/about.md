@@ -441,9 +441,9 @@ article{ padding:0!important;margin:0!important; }
       <img class="about-img" src="/assets/img/prof_pic.jpg" alt="Mai W. Ibrahim" />
     </div>
     <div class="text-col">
+      <p class="about-text">I am an Assistant Professor in the department of Communication at the University of Sharjah in the United Arab Emirates. Previously, I was a Sessional Instructor at McMaster University in Hamilton, Canada, and a Postdoctoral Visitor in the Department of Communication and Media Studies at York University in Toronto, where I researched toxicity in video games. I completed my PhD in Communication, Rhetoric, and Digital Media at North Carolina State University in Raleigh, U.S.</p>
       <p class="about-text">My research examines how VR actively reorganizes sensation, embodiment, and subjectivity, rather than simply representing experience. I’m particularly interested in how this reorganization of embodied experience becomes entangled with platform capitalism, where affective and bodily responses can be captured and transformed into data and economic value.</p>
       <p class="about-text">My research engages a wide range of media, including virtual reality, brain-computer interfaces, social media, and video games.</p>
-      <p class="about-text">I am currently a sessional instructor at McMaster University in Hamilton, Canada. I was a Postdoctoral Visitor at York University's Department of Communication and Media Studies in Toronto, Canada, where I researched toxicity in video games. I completed my PhD in Communication, Rhetoric, and Digital Media at North Carolina State University in Raleigh, U.S.</p>
     </div>
   </div>
 </div>
