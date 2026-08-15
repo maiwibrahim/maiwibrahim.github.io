@@ -458,7 +458,7 @@ article{ padding:0!important;margin:0!important; }
     <p class="section-label">Research &amp; Publications</p>
     <div class="pub-type-block type-chapters">
       <span class="pub-type-label">Book Chapters</span>
-       <p class="pub-entry">Ibrahim, M. W. (in preparation). Ambient neurointerventions: Toward a neuroethics of platform governance. In Y. Della Croce & V. Dubljević (Eds.), Research handbook of neuroethics. Edward Elgar Publishing.</p>
+      <p class="pub-entry">Ibrahim, M. W. (in preparation). Ambient Neurointerventions: Toward a Neuroethics of Platform Governance. In Y. Della Croce &amp; V. Dubljević (Eds.), <em>Research handbook of neuroethics</em>. Edward Elgar Publishing.</p>
       <p class="pub-entry">Ibrahim, M. (2025). <a href="/assets/pdf/embodiment-social-vr.pdf" target="_blank">Embodiment and Representation in Social VR</a>. In Grant Bollmer, Katherine Guinness, and Yiğit Soncul (Eds.), <em>Handbook of Digital Cultures</em> (pp. 307–314). De Gruyter.</p>
       <p class="pub-entry">Ibrahim, M. (2024). <a href="/assets/pdf/tahrir-square.pdf" target="_blank">Exploring <em>Tahrir Square</em> as an Intra-Active Hybrid Space</a>. In Joanna Godlewicz-Adamiec &amp; Pawel Piszczatowski (Eds.), <em>Re-Thinking Agency: Non-Anthropocentric Approaches</em> (pp. 21–33). Vandenhoeck &amp; Ruprecht.</p>
       <p class="pub-entry">Ibrahim, M. (2023). <a href="/assets/pdf/posthuman-bci-vr.pdf" target="_blank">Posthuman Subjectivity in BCI-VR Entanglement</a>. In Veljko Dubljević &amp; Allen Coin (Eds.), <em>Policy, Identity, and Neurotechnology</em> (pp. 11–25). Springer.</p>
