@@ -368,13 +368,13 @@ article{ padding:0!important;margin:0!important; }
     <div class="av-label" style="color:rgba(255,170,201,.80);">materiality</div>
   </div>
 
-  <!-- "researching" tag -->
+  <!-- "research" tag -->
   <div class="float-tag with-icon" id="tag2" style="top:44%;right:30%;">
     <svg width="9" height="9" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
       <circle cx="5" cy="5" r="3.4" stroke="rgba(255,255,255,0.60)" stroke-width="1.3"/>
       <line x1="7.4" y1="7.4" x2="11" y2="11" stroke="rgba(255,255,255,0.60)" stroke-width="1.4" stroke-linecap="round"/>
     </svg>
-    researching
+    research
   </div>
 
   <!-- av4: ambient | ghost-av → 0.32 | emoji: 🌿 -->
