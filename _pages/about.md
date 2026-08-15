@@ -351,7 +351,7 @@ article{ padding:0!important;margin:0!important; }
     <div class="av-label" style="color:rgba(128,232,227,.80);">glitch</div>
   </div>
 
-  <!-- av2: intensity02 | opacity: 0.58 exception | emoji: 📡 -->
+  <!-- av2: intensity | opacity: 0.58 exception | emoji: 📡 -->
   <div class="av" id="av2" style="top:30%;right:22%;">
     <div class="av-body" style="width:38px;height:44px;background:rgba(52,48,8,.80);border:1px solid rgba(245,226,122,.55);box-shadow:0 0 0 3px rgba(245,226,122,.08),0 8px 32px rgba(0,0,0,.88);">📡</div>
     <div class="av-shadow" style="width:26px;background:rgba(245,226,122,.14);"></div>
@@ -361,7 +361,7 @@ article{ padding:0!important;margin:0!important; }
   <!-- "digital media" tag -->
   <div class="float-tag" id="tag1" style="top:19%;right:23%;">digital media</div>
 
-  <!-- av3: materiality05 | opacity: 0.58 exception | emoji: 🪨 -->
+  <!-- av3: materiality | opacity: 0.58 exception | emoji: 🪨 -->
   <div class="av" id="av3" style="top:22%;right:38%;">
     <div class="av-body" style="width:36px;height:42px;background:rgba(52,8,24,.80);border:1px solid rgba(255,61,130,.55);box-shadow:0 0 0 3px rgba(255,61,130,.08),0 8px 32px rgba(0,0,0,.88);">🪨</div>
     <div class="av-shadow" style="width:24px;background:rgba(255,61,130,.14);"></div>
@@ -384,7 +384,7 @@ article{ padding:0!important;margin:0!important; }
     <div class="av-label" style="color:rgba(128,232,227,.80);">ambient</div>
   </div>
 
-  <!-- av5: extraction05 | opacity: 0.08 -->
+  <!-- av5: extraction | opacity: 0.08 -->
   <div class="av" id="av5" style="top:62%;right:33%;">
     <div class="av-body" style="width:36px;height:42px;background:rgba(30,8,52,.80);border:1px solid rgba(160,90,230,.55);box-shadow:0 0 0 3px rgba(160,90,230,.08),0 8px 32px rgba(0,0,0,.88);">🤑</div>
     <div class="av-shadow" style="width:24px;background:rgba(160,80,230,.14);"></div>
@@ -405,7 +405,7 @@ article{ padding:0!important;margin:0!important; }
     <div class="av-label" style="color:rgba(128,232,227,.52);">platform capitalism</div>
   </div>
 
-  <!-- gv4: VR_24 | 🥽 exception | opacity: 0.58 -->
+  <!-- gv4: VR | 🥽 exception | opacity: 0.58 -->
   <div class="av" id="gv4" style="top:56%;right:22%;">
     <div class="av-body" style="width:44px;height:50px;background:rgba(10,28,46,.80);border:1px solid rgba(13,191,180,.50);box-shadow:0 0 0 3px rgba(13,191,180,.08),0 8px 32px rgba(0,0,0,.88);">🥽</div>
     <div class="av-shadow" style="width:28px;background:rgba(13,191,180,.14);"></div>
