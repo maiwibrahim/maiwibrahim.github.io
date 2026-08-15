@@ -467,7 +467,7 @@ article{ padding:0!important;margin:0!important; }
     </div>
     <div class="pub-type-block type-articles">
       <span class="pub-type-label">Journal Articles</span>
-      <p class="pub-entry">Ibrahim, M. (2026). Virtual Enchantment: Rethinking Engagement in Social VR through the <em>Better World Museum</em>. <em>Convergence</em>.</p>
+      <p class="pub-entry">Ibrahim, M. (2026). <a href="https://journals.sagepub.com/doi/10.1177/13548565261460295?int.sj-abstract.similar-articles.6" target="_blank">Virtual Enchantment: Rethinking Engagement in Social VR through the <em>Better World Museum</em></a>. <em>Convergence</em>.</p>
     </div>
     <div class="pub-type-block type-reviews">
       <span class="pub-type-label">Reviews</span>
