@@ -429,7 +429,7 @@ article{ padding:0!important;margin:0!important; }
     <h1 class="hero-name">
       <span class="first">Mai</span><span class="mid">&nbsp;W.&nbsp;</span><span class="last">Ibrahim</span>
     </h1>
-    <p class="hero-desc">is a media theorist &amp; researcher of digital cultures.</p>
+    <p class="hero-desc">is a researcher of digital cultures.</p>
   </div>
 </div>
 
