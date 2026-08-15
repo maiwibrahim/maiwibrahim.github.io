@@ -365,7 +365,7 @@ article{ padding:0!important;margin:0!important; }
   <div class="av" id="av3" style="top:22%;right:38%;">
     <div class="av-body" style="width:36px;height:42px;background:rgba(52,8,24,.80);border:1px solid rgba(255,61,130,.55);box-shadow:0 0 0 3px rgba(255,61,130,.08),0 8px 32px rgba(0,0,0,.88);">🪨</div>
     <div class="av-shadow" style="width:24px;background:rgba(255,61,130,.14);"></div>
-    <div class="av-label" style="color:rgba(255,170,201,.80);">materiality05</div>
+    <div class="av-label" style="color:rgba(255,170,201,.80);">materiality</div>
   </div>
 
   <!-- "researching" tag -->
@@ -388,7 +388,7 @@ article{ padding:0!important;margin:0!important; }
   <div class="av" id="av5" style="top:62%;right:33%;">
     <div class="av-body" style="width:36px;height:42px;background:rgba(30,8,52,.80);border:1px solid rgba(160,90,230,.55);box-shadow:0 0 0 3px rgba(160,90,230,.08),0 8px 32px rgba(0,0,0,.88);">🤑</div>
     <div class="av-shadow" style="width:24px;background:rgba(160,80,230,.14);"></div>
-    <div class="av-label" style="color:rgba(200,160,240,.80);">extraction05</div>
+    <div class="av-label" style="color:rgba(200,160,240,.80);">extraction</div>
   </div>
 
   <!-- gv2: affect | emoji: 🫀 -->
@@ -409,7 +409,7 @@ article{ padding:0!important;margin:0!important; }
   <div class="av" id="gv4" style="top:56%;right:22%;">
     <div class="av-body" style="width:44px;height:50px;background:rgba(10,28,46,.80);border:1px solid rgba(13,191,180,.50);box-shadow:0 0 0 3px rgba(13,191,180,.08),0 8px 32px rgba(0,0,0,.88);">🥽</div>
     <div class="av-shadow" style="width:28px;background:rgba(13,191,180,.14);"></div>
-    <div class="av-label" style="color:rgba(128,232,227,.80);">VR_24</div>
+    <div class="av-label" style="color:rgba(128,232,227,.80);">VR</div>
   </div>
 
   <!-- gv5: embodiment | emoji: 🧬 -->
