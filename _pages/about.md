@@ -377,13 +377,6 @@ article{ padding:0!important;margin:0!important; }
     research
   </div>
 
-  <!-- av4: ambient | ghost-av → 0.32 | emoji: 🌿 -->
-  <div class="av ghost-av" id="av4" style="top:50%;right:12%;">
-    <div class="av-body" style="width:36px;height:42px;background:rgba(6,44,38,.80);border:1px solid rgba(0,210,170,.55);box-shadow:0 0 0 3px rgba(0,210,170,.08),0 8px 32px rgba(0,0,0,.88);">🌿</div>
-    <div class="av-shadow" style="width:24px;background:rgba(0,210,170,.14);"></div>
-    <div class="av-label" style="color:rgba(128,232,227,.80);">ambient</div>
-  </div>
-
   <!-- av5: extraction | opacity: 0.08 -->
   <div class="av" id="av5" style="top:62%;right:33%;">
     <div class="av-body" style="width:36px;height:42px;background:rgba(30,8,52,.80);border:1px solid rgba(160,90,230,.55);box-shadow:0 0 0 3px rgba(160,90,230,.08),0 8px 32px rgba(0,0,0,.88);">🤑</div>
