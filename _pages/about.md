@@ -107,7 +107,6 @@ article{ padding:0!important;margin:0!important; }
   transition:color .25s, border-color .25s, background .25s;
 }
 
-/* ─── AVATAR HOVER ─── */
 .av.visible:hover,
 .av.ghost-av.visible:hover {
   opacity:1 !important;
@@ -141,7 +140,6 @@ article{ padding:0!important;margin:0!important; }
 .float-tag.visible { opacity:0.08; transform:translateY(0); }
 .float-tag.with-icon { display:inline-flex;align-items:center;gap:5px;padding:5px 12px 5px 9px; }
 
-/* ─── FLOAT TAG HOVER ─── */
 .float-tag.visible:hover {
   opacity:1 !important;
   transform:translateY(-4px) scale(1.06);
@@ -164,16 +162,6 @@ article{ padding:0!important;margin:0!important; }
   display:flex;align-items:baseline;
 }
 .hero-name .first { color:#fdf0a0;font-weight:700; }
-.hero-name .mid {
-  color:#ffffff;
-  font-family:'Playfair Display',Georgia,serif;
-  font-weight:300;
-  font-size:0.90em;
-  line-height:1;
-  vertical-align:baseline;
-  display:inline-block;
-  padding:0 0.05em;
-}
 .hero-name .last { color:rgba(13,191,180,.62);font-weight:700; }
 
 .hero-desc { font-size:clamp(14px,2vw,18px);color:#ffffff;font-style:italic;line-height:1.6;margin:0; }
@@ -344,85 +332,78 @@ article{ padding:0!important;margin:0!important; }
     <span style="background:var(--yellow);"></span>
   </div>
 
-  <!-- av1: glitch | ghost-av → 0.32 | emoji: ⚡ -->
   <div class="av ghost-av" id="av1" style="top:17%;right:8%;">
     <div class="av-body" style="width:42px;height:48px;background:rgba(8,52,58,.80);border:1px solid rgba(13,191,180,.55);box-shadow:0 0 0 3px rgba(13,191,180,.08),0 8px 32px rgba(0,0,0,.88);">⚡</div>
     <div class="av-shadow" style="width:28px;background:rgba(13,191,180,.16);"></div>
     <div class="av-label" style="color:rgba(128,232,227,.80);">glitch</div>
   </div>
 
-  <!-- av2: intensity | opacity: 0.58 exception | emoji: 📡 -->
   <div class="av" id="av2" style="top:30%;right:22%;">
     <div class="av-body" style="width:38px;height:44px;background:rgba(52,48,8,.80);border:1px solid rgba(245,226,122,.55);box-shadow:0 0 0 3px rgba(245,226,122,.08),0 8px 32px rgba(0,0,0,.88);">📡</div>
     <div class="av-shadow" style="width:26px;background:rgba(245,226,122,.14);"></div>
-    <div class="av-label" style="color:rgba(249,237,170,.80);">intensity</div>
+    <div class="av-label" style="color:rgba(249,237,170,.80);">intensity02</div>
   </div>
 
-  <!-- "digital media" tag -->
   <div class="float-tag" id="tag1" style="top:19%;right:23%;">digital media</div>
 
-  <!-- av3: materiality | opacity: 0.58 exception | emoji: 🪨 -->
   <div class="av" id="av3" style="top:22%;right:38%;">
     <div class="av-body" style="width:36px;height:42px;background:rgba(52,8,24,.80);border:1px solid rgba(255,61,130,.55);box-shadow:0 0 0 3px rgba(255,61,130,.08),0 8px 32px rgba(0,0,0,.88);">🪨</div>
     <div class="av-shadow" style="width:24px;background:rgba(255,61,130,.14);"></div>
-    <div class="av-label" style="color:rgba(255,170,201,.80);">materiality</div>
+    <div class="av-label" style="color:rgba(255,170,201,.80);">materiality05</div>
   </div>
 
-  <!-- "research" tag -->
   <div class="float-tag with-icon" id="tag2" style="top:44%;right:30%;">
     <svg width="9" height="9" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
       <circle cx="5" cy="5" r="3.4" stroke="rgba(255,255,255,0.60)" stroke-width="1.3"/>
       <line x1="7.4" y1="7.4" x2="11" y2="11" stroke="rgba(255,255,255,0.60)" stroke-width="1.4" stroke-linecap="round"/>
     </svg>
-    research
+    researching
   </div>
 
-  <!-- av5: extraction | opacity: 0.08 -->
+  <div class="av ghost-av" id="av4" style="top:50%;right:12%;">
+    <div class="av-body" style="width:36px;height:42px;background:rgba(6,44,38,.80);border:1px solid rgba(0,210,170,.55);box-shadow:0 0 0 3px rgba(0,210,170,.08),0 8px 32px rgba(0,0,0,.88);">🌿</div>
+    <div class="av-shadow" style="width:24px;background:rgba(0,210,170,.14);"></div>
+    <div class="av-label" style="color:rgba(128,232,227,.80);">ambient</div>
+  </div>
+
   <div class="av" id="av5" style="top:62%;right:33%;">
     <div class="av-body" style="width:36px;height:42px;background:rgba(30,8,52,.80);border:1px solid rgba(160,90,230,.55);box-shadow:0 0 0 3px rgba(160,90,230,.08),0 8px 32px rgba(0,0,0,.88);">🤑</div>
     <div class="av-shadow" style="width:24px;background:rgba(160,80,230,.14);"></div>
-    <div class="av-label" style="color:rgba(200,160,240,.80);">extraction</div>
+    <div class="av-label" style="color:rgba(200,160,240,.80);">extraction05</div>
   </div>
 
-  <!-- gv2: affect | emoji: 🫀 -->
   <div class="av ghost-av" id="gv2" style="top:22%;right:3%;">
     <div class="av-body" style="width:28px;height:32px;background:rgba(40,10,30,.92);border:1px solid rgba(255,61,130,.28);box-shadow:0 6px 24px rgba(0,0,0,.78);">🫀</div>
     <div class="av-shadow" style="width:18px;background:rgba(255,61,130,.08);"></div>
     <div class="av-label" style="color:rgba(255,170,201,.55);">affect</div>
   </div>
 
-  <!-- gv3: platform capitalism | emoji: 💹 -->
   <div class="av ghost-av" id="gv3" style="top:13%;right:48%;">
     <div class="av-body" style="width:34px;height:40px;background:rgba(8,40,50,.92);border:1px solid rgba(13,191,180,.26);box-shadow:0 6px 24px rgba(0,0,0,.78);">💹</div>
     <div class="av-shadow" style="width:22px;background:rgba(13,191,180,.08);"></div>
     <div class="av-label" style="color:rgba(128,232,227,.52);">platform capitalism</div>
   </div>
 
-  <!-- gv4: VR | 🥽 exception | opacity: 0.58 -->
   <div class="av" id="gv4" style="top:56%;right:22%;">
     <div class="av-body" style="width:44px;height:50px;background:rgba(10,28,46,.80);border:1px solid rgba(13,191,180,.50);box-shadow:0 0 0 3px rgba(13,191,180,.08),0 8px 32px rgba(0,0,0,.88);">🥽</div>
     <div class="av-shadow" style="width:28px;background:rgba(13,191,180,.14);"></div>
-    <div class="av-label" style="color:rgba(128,232,227,.80);">VR</div>
+    <div class="av-label" style="color:rgba(128,232,227,.80);">VR_24</div>
   </div>
 
-  <!-- gv5: embodiment | emoji: 🧬 -->
   <div class="av ghost-av" id="gv5" style="top:72%;right:40%;">
     <div class="av-body" style="width:26px;height:30px;background:rgba(20,8,40,.92);border:1px solid rgba(160,90,230,.26);box-shadow:0 6px 20px rgba(0,0,0,.78);">🧬</div>
     <div class="av-shadow" style="width:16px;background:rgba(160,80,230,.08);"></div>
     <div class="av-label" style="color:rgba(200,160,240,.52);">embodiment</div>
   </div>
 
-  <!-- gtag1: infrastructure -->
   <div class="float-tag" id="gtag1" style="top:9%;right:36%;opacity:0;">infrastructure</div>
-
-  <!-- gtag2: pre-conscious -->
   <div class="float-tag" id="gtag2" style="top:60%;right:38%;opacity:0;">pre-conscious 🌀</div>
 
- <div class="hero-content">
+  <div class="hero-content">
     <h1 class="hero-name">
       <span class="first">Mai</span> <span class="last">Ibrahim</span>
     </h1>
-    <p class="hero-desc">is a researcher of digital cultures.</p>
+    <p class="hero-desc">is a media theorist &amp; researcher of digital cultures.</p>
   </div>
 </div>
 
@@ -431,12 +412,12 @@ article{ padding:0!important;margin:0!important; }
   <p class="section-label">About</p>
   <div class="about-inner">
     <div class="about-img-wrap">
-      <img class="about-img" src="/assets/img/prof_pic.jpg" alt="Mai W. Ibrahim" />
+      <img class="about-img" src="/assets/img/prof_pic.jpg" alt="Mai Ibrahim" />
     </div>
     <div class="text-col">
       <p class="about-text">I am an Assistant Professor in the department of Communication at the University of Sharjah in the United Arab Emirates. Previously, I was a Sessional Instructor at McMaster University in Hamilton, Canada, and a Postdoctoral Visitor in the Department of Communication and Media Studies at York University in Toronto, where I researched toxicity in video games. I completed my PhD in Communication, Rhetoric, and Digital Media at North Carolina State University in Raleigh, U.S.</p>
-      <p class="about-text">My research examines how virtual reality (VR) spaces actively reorganize sensation, embodiment, and subjectivity, rather than simply representing experience. I’m particularly interested in how this reorganization of embodied experience becomes entangled with platform capitalism, where affective and bodily responses can be captured and transformed into data and economic value.</p>
-      <p class="about-text">More broadly, my research engages a range of emerging media and technologies, including brain-computer interfaces, social media, and video games, to examine how technological systems reshape embodied experience and mediate our relationships with ourselves and the world around us.</p>
+      <p class="about-text">My research examines how VR actively reorganizes sensation, embodiment, and subjectivity, rather than simply representing experience. I'm particularly interested in how this reorganization of embodied experience becomes entangled with platform capitalism, where affective and bodily responses can be captured and transformed into data and economic value.</p>
+      <p class="about-text">My research engages a wide range of media, including virtual reality, brain-computer interfaces, social media, and video games.</p>
     </div>
   </div>
 </div>
@@ -451,12 +432,12 @@ article{ padding:0!important;margin:0!important; }
     <p class="section-label">Research &amp; Publications</p>
     <div class="pub-type-block type-chapters">
       <span class="pub-type-label">Book Chapters</span>
-      <p class="pub-entry">Ibrahim, M. (in preparation). Ambient Neurointerventions: Toward a Neuroethics of Platform Governance. In Y. Della Croce &amp; V. Dubljević (Eds.), <em>Research Handbook of Neuroethics</em>. Edward Elgar Publishing.</p>
+      <p class="pub-entry">Ibrahim, M. W. (in preparation). Ambient Neurointerventions: Toward a Neuroethics of Platform Governance. In Y. Della Croce &amp; V. Dubljević (Eds.), <em>Research handbook of neuroethics</em>. Edward Elgar Publishing.</p>
       <p class="pub-entry">Ibrahim, M. (2025). <a href="/assets/pdf/embodiment-social-vr.pdf" target="_blank">Embodiment and Representation in Social VR</a>. In Grant Bollmer, Katherine Guinness, and Yiğit Soncul (Eds.), <em>Handbook of Digital Cultures</em> (pp. 307–314). De Gruyter.</p>
       <p class="pub-entry">Ibrahim, M. (2024). <a href="/assets/pdf/tahrir-square.pdf" target="_blank">Exploring <em>Tahrir Square</em> as an Intra-Active Hybrid Space</a>. In Joanna Godlewicz-Adamiec &amp; Pawel Piszczatowski (Eds.), <em>Re-Thinking Agency: Non-Anthropocentric Approaches</em> (pp. 21–33). Vandenhoeck &amp; Ruprecht.</p>
-      <p class="pub-entry">Ibrahim, M. &amp; Dubljević, V. (2024). Prélude à la neuroéthique politique: neuroféminisme et éthique des ICM et ICC. <em>Neuroéthique et diversité culturelle</em>, p. 95. ISTE Group.</p>
       <p class="pub-entry">Ibrahim, M. (2023). <a href="/assets/pdf/posthuman-bci-vr.pdf" target="_blank">Posthuman Subjectivity in BCI-VR Entanglement</a>. In Veljko Dubljević &amp; Allen Coin (Eds.), <em>Policy, Identity, and Neurotechnology</em> (pp. 11–25). Springer.</p>
       <p class="pub-entry">Ibrahim, M. &amp; Dubljević, V. (2023). <a href="/assets/pdf/neurofeminism-bci.pdf" target="_blank">Neurofeminism in BCI and BBI Ethics as a Prelude to Political Neuroethics</a>. In Michele Farisco (Ed.), <em>Neuroethics and Cultural Diversity</em> (pp. 77–94). ISTE/Wiley.</p>
+      <p class="pub-entry">Ibrahim, M. &amp; Dubljević, V. (2024). Prélude à la neuroéthique politique: neuroféminisme et éthique des ICM et ICC. <em>Neuroéthique et diversité culturelle</em>, p. 95. ISTE Group.</p>
     </div>
     <div class="pub-type-block type-articles">
       <span class="pub-type-label">Journal Articles</span>
