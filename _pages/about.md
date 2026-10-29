@@ -418,7 +418,7 @@ article{ padding:0!important;margin:0!important; }
   <!-- gtag2: pre-conscious -->
   <div class="float-tag" id="gtag2" style="top:60%;right:38%;opacity:0;">pre-conscious 🌀</div>
 
-  <div class="hero-content">
+ <div class="hero-content">
     <h1 class="hero-name">
       <span class="first">Mai</span> <span class="last">Ibrahim</span>
     </h1>
